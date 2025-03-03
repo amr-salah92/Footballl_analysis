@@ -1,0 +1,31 @@
+{
+  "system": {
+    "data_dir": "data",
+    "enable_preview": true,
+    "limit_fps": 30,
+    "log_level": "INFO"
+  },
+  "models": {
+    "yolo_model_path": "models/yolov8n.pt",
+    "deepsort_model_path": "models/deepsort.pt",
+    "pose_model_path": "models/pose_estimation.pt",
+    "detection_confidence": 0.25,
+    "tracker_max_age": 30
+  },
+  "realtime": {
+    "enable_streaming": false,
+    "stream_url": "rtmp://localhost/live/football",
+    "websocket_port": 8080,
+    "highlight_buffer_seconds": 5
+  },
+  "database": {
+    "enabled": false,
+    "type": "sqlite",
+    "path": "data/football_analysis.db"
+  },
+  "dashboard": {
+    "enabled": true,
+    "port": 8501,
+    "refresh_interval": 1
+  }
+}
