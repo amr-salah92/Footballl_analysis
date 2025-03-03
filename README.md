@@ -22,7 +22,7 @@ This Football Analysis System is an advanced sports analytics platform that comb
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/football-analysis-system.git
+git clone https://github.com/amr-salah92/football-analysis-system.git
 cd football-analysis-system
 ```
 
