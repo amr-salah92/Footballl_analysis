@@ -9,7 +9,7 @@ deep_sort_realtime==1.3.0
 ultralytics==8.0.69
 tensorflow==2.13.0
 mediapipe==0.10.0
-realtime_integration
+
 # The following modules are part of Python’s standard library and do not need to be installed:
 # collections
 # time
