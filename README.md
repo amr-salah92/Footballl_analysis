@@ -145,9 +145,6 @@ The modular architecture allows for easy extension:
 - **Tracking Failures**: Adjust tracking parameters (max_age, min_hits)
 - **Real-time Performance**: Lower video resolution or processing framerate
 
-## License
-[Specify your license here]
-
 ## Acknowledgments
 - YOLOv8 by Ultralytics
 - DeepSORT algorithm
